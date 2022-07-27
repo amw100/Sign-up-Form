@@ -1,0 +1,17 @@
+* {
+  font-family: 'DatalegreyaThin';
+  font-weight: normal;
+  font-style: normal; 
+}
+
+body {
+  margin: 0;   
+}
+
+#background-img{
+  height: 100vh;
+}
+
+#logo-img{
+  height: 25vh;
+}
