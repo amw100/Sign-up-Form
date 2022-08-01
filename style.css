@@ -31,7 +31,7 @@ body {
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
-  width: 35vw;
+  width: 45vw;
 }
 
 .logo {
@@ -45,5 +45,26 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2vw;
-  padding: 1vh 0;
+  padding: 0.5vh 0;
+}
+
+.form-box {
+  background-color: black;
+  color: #d7cabf;
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding-left: 2vw;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.the-inputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
