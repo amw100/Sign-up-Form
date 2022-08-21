@@ -1,46 +1,75 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/datalegreya" type="text/css"/> 
-  <link rel="stylesheet" href="./style.css">
-  <title>Sign-up Form | Aaron Westreich</title>
-</head>
-<body>
-  <div class="page">
-    <div class="image-box">
-      <div class="logo">
-        <img id= "logo-img" src="./images/lemmling_Decorative_flower.svg" alt="a flowery logo">
-        <p>hello aaron</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/datalegreya"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sign-up Form | Aaron Westreich</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="image-box">
+        <div class="logo">
+          <img
+            id="logo-img"
+            src="./images/lemmling_Decorative_flower.svg"
+            alt="a flowery logo"
+          />
+          <p>hello aaron</p>
+        </div>
+      </div>
+      <div class="form-box">
+        <h2>
+          this is not a real online service! this is just a thing aaron made to
+          practice some CSS stuff, make your wildest nightmares come true just
+          by signing up!
+        </h2>
+        <p class="you-know">you <em>know</em> you want to.</p>
+        <form action="" method="post">
+          <div class="inputs">
+            <h3>Let's do this!</h3>
+            <div class="the-inputs">
+              <div class="input">
+                <label for="first_name">first name</label>
+                <input type="text" name="first_name" id="first_name" />
+              </div>
+              <div class="input">
+                <label for="last_name">last name</label>
+                <input type="text" name="last_name" id="last_name" />
+              </div>
+              <div class="input">
+                <label for="email_addr">email</label>
+                <input type="email" name="email_addr" id="email_addr" />
+              </div>
+              <div class="input">
+                <label for="phone">phone number</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="input">
+                <label for="pass">password</label>
+                <input type="password" name="pass" id="pass" required />
+              </div>
+              <div class="input">
+                <label for="confirm-pass">confirm password</label>
+                <input
+                  type="password"
+                  name="confirm-pass"
+                  id="confirm-pass"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <button type="submit">create account</button>
+          <p>already have an account? <a href="#">log in</a>.</p>
+        </form>
       </div>
     </div>
-    <div class="form-box">
-      <h2>this is not a real online service! this is just a thing aaron made to practice some CSS stuff, make your wildest nightmares come true just by signing up!</h2>
-      <p class="you-know">you <em>know</em> you want to.</p>
-      <form action="" method="post">
-        <div class="inputs">
-          <h3>Let's do this!</h3>
-          <div class="the-inputs">
-            <label for="first_name">first name</label>
-            <input type="text" name="first_name" id="first_name">
-            <label for="last_name">last name</label>
-            <input type="text" name="last_name" id="last_name">
-            <label for="email_addr">email</label>
-            <input type="email" name="email_addr" id="email_addr">
-            <label for="phone">phone number</label>
-            <input type="tel" id="phone" name="phone">
-            <label for="pass">password</label>
-            <input type="password" name="pass" id="pass" required>
-            <label for="confirm-pass">confirm password</label>
-            <input type="password" name="confirm-pass" id="confirm-pass" required>
-          </div>
-        </div>
-        <button type="submit">create account</button>
-        <p>already have an account? <a href="#">log in</a>.</p>
-      </form>
-    </div>
-
-  </div>
-</body>
+  </body>
 </html>
