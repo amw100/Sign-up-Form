@@ -3,12 +3,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      media="screen"
-      href="https://fontlibrary.org//face/datalegreya"
-      type="text/css"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css" />
     <title>Sign-up Form | Aaron Westreich</title>
   </head>
@@ -21,7 +18,7 @@
             src="./images/lemmling_Decorative_flower.svg"
             alt="a flowery logo"
           />
-          <p>hello aaron</p>
+          <p> aaron </p>
         </div>
       </div>
       <div class="form-box">
@@ -37,19 +34,19 @@
             <div class="the-inputs">
               <div class="input">
                 <label for="first_name">first name</label>
-                <input type="text" name="first_name" id="first_name" />
+                <input type="text" name="first_name" id="first_name" required placeholder="Jeff"/>
               </div>
               <div class="input">
                 <label for="last_name">last name</label>
-                <input type="text" name="last_name" id="last_name" />
+                <input type="text" name="last_name" id="last_name" required placeholder="McJeff"/>
               </div>
               <div class="input">
                 <label for="email_addr">email</label>
-                <input type="email" name="email_addr" id="email_addr" />
+                <input type="email" name="email_addr" id="email_addr" required placeholder="Jeff@jeff.jeff"/>
               </div>
               <div class="input">
                 <label for="phone">phone number</label>
-                <input type="tel" id="phone" name="phone" />
+                <input type="tel" id="phone" name="phone" required placeholder="012-3456789"/>
               </div>
               <div class="input">
                 <label for="pass">password</label>
